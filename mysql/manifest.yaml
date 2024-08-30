@@ -2,6 +2,8 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: mysql
+  # so eppudu ee pod expense namespace lo create avthundhi.. to see the pod
+  # kubectl get pods -n expense
   namespace: expense
   # these labels are deployment related labels
   labels:
