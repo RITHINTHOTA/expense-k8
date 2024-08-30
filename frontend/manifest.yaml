@@ -4,6 +4,7 @@ metadata:
   name: frontend
   namespace: expense
 data:
+  data:
   nginx.conf: |
     user www-data;
     worker_processes 4;
