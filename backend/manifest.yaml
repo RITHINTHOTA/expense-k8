@@ -38,7 +38,7 @@ spec:
       #   command: ['sh', '-c', "until nslookup db-dev.daws78s.online; do echo waiting for myservice; sleep 2; done"]
       containers:
       - name: backend
-        image: joindevops/backend:v1.0
+        image: rithinthota/backend:v1.0
         # resources:
         #   requests:
         #     cpu: "100m"
